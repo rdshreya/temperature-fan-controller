@@ -1,17 +1,29 @@
 # Temperature-Based Fan Speed Controller
 
-This project is an embedded system that controls fan speed based on temperature input using a sensor and PWM.
+## Overview
+This project is an embedded system that automatically controls fan speed based on temperature using a sensor and PWM.
 
 ## Features
-- Temperature sensing
-- Automatic fan speed control
-- PWM-based output control
+- Temperature sensing using sensor (e.g., LM35/DHT11)
+- Automatic fan speed control using PWM
+- Real-time monitoring using LCD display
+- Energy-efficient operation
 
 ## Components Used
-- Arduino Uno
+- Arduino UNO
 - Temperature Sensor
-- Fan Module
-- LCD Display
+- Fan + Driver Module
+- LCD Display (16x2)
+- Breadboard & Jumper Wires
 
 ## Working
-The system reads temperature and adjusts fan speed automatically based on predefined thresholds.
+The temperature sensor continuously reads ambient temperature.  
+Based on predefined thresholds, the Arduino adjusts fan speed using PWM signals.
+
+## Applications
+- Smart cooling systems
+- Home automation
+- Industrial temperature control
+
+## Project Images
+(Add your images below)
