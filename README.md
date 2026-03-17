@@ -26,4 +26,8 @@ Based on predefined thresholds, the Arduino adjusts fan speed using PWM signals.
 - Industrial temperature control
 
 ## Project Images
-(Add your images below)
+### Circuit Diagram
+![Circuit diagram](https://github.com/user-attachments/assets/c438c7dd-8c8e-4d1f-9b4f-b8c59f77c5bc)
+
+### Real Setup
+![Real setup image](https://github.com/user-attachments/assets/7a6663ef-d1bc-4dee-aee5-bb4797aa2acd)
